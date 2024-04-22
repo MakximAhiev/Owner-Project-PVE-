@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="classes">
+      <UniqueIdentifier>{1afc0829-cd50-42b8-8429-25dbd3c6a435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{2badd40e-395c-4837-9e22-82df9c83ceee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enum">
+      <UniqueIdentifier>{4cacff7e-a26d-4cd7-96f8-f9ece0d01235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="struct">
+      <UniqueIdentifier>{b2628a63-107f-49b0-9fad-f183603e0608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{05de863b-d20c-45b2-b135-97b99c12003f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{349b1258-11f8-4710-8dbc-cff5bd529588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imports">
+      <UniqueIdentifier>{923696df-e05f-4767-9793-b86593b7c302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="syscall">
+      <UniqueIdentifier>{fcf7644c-293d-418f-8e25-74b2f9a0416f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="classes\CGameStartup.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CGame.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CCryAction.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CActionGame.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CGameClientNub.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CGameClientChannel.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CItemSystem.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CItemProxy.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CWeaponExt.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CActorSystem.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CActor.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CInventory.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CRenderer.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="enum\EFRAMEWORKLISTENERPRIORITY.hpp">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="enum\EActionEvent.hpp">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="struct\SActionEvent.hpp">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="struct\IGameFrameworkListener.hpp">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visual.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="struct\Plane_tpl.hpp">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vec3.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vec2.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\QuatT.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Quat.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Matrix34.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CCamera.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CEntitySystem.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CEntityIterator.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CEntity.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="enum\EEntityProxy.hpp">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="security\xorstr.hpp">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CCompoundCharacter.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CCharacterInstance.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CSkeletonPose.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CClipMode.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Weapon.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CAnimationGraphState.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CActorAnimation.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CEntityClass.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="imports\imports.hpp">
+      <Filter>imports</Filter>
+    </ClInclude>
+    <ClInclude Include="math\AABB.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="enum\EGameStatType.hpp">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CPhysicalWorld.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="enum\phentity_flags.hpp">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CGameRules.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CGameObjectExtension.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\CScriptProxy.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Aim.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="enum\HitType.hpp">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="enum\HitMaterialId.hpp">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="struct\ITimer.hpp">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="struct\CTimeValue.hpp">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="struct\STimerState.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall\spoof_call.hpp">
+      <Filter>syscall</Filter>
+    </ClInclude>
+    <ClInclude Include="enum\EKey.hpp">
+      <Filter>enum</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Color.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="imports\customVector.hpp">
+      <Filter>imports</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoofasm.asm">
+      <Filter>syscall</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
